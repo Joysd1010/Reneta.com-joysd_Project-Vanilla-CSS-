@@ -1,3 +1,162 @@
-*{
-  font-family: 'Gloock', serif;
+* {
+  font-family: "Gloock", serif;
+  margin: 0px;
+}
+/* ------------Header part style------------ */
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.789), rgba(0, 0, 0, 0.403)),
+    url(./images/Header\ Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+/* NavBar style */
+.navbar {
+ 
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+  align-items: center;
+}
+.logo-image {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: rgb(209, 213, 164);
+  gap: 15px;
+  cursor: pointer;
+}
+
+.logo-image > img {
+  width: 75px;
+}
+.nav-items {
+  gap: 10px;
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+}
+.nav-items > li > button a {
+  color: rgb(249, 251, 247);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-items > li > button {
+  background-color: rgba(155, 226, 55, 0.004);
+  border: 0px;
+  padding-left: 20px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.nav-items > li > button:hover {
+  background-color: rgba(155, 226, 55, 0.304);
+}
+.menu {
+  display: none;
+}
+
+/* Header text styles */
+.header-content{
+   margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 3px;
+  margin-top: 80px;
+  padding-bottom: 350px;
+}
+.Header-text{
+  text-align: center;
+ 
+  padding: 40px;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  /* NavBar style */
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 40px;
+   
+    align-items: center;
+  }
+  .logo-image {
+    position: relative;
+    right: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(209, 213, 164);
+    gap: 15px;
+    cursor: pointer;
+  }
+
+  .logo-image > img {
+    width: 50px;
+  }
+  .nav-items {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 0px;
+   padding-top: 20px;
+  }
+  .nav{
+      display: none;
+  }
+
+  .menu {
+    color: rgb(189, 239, 175);
+    display: block;
+    position: absolute;
+    bottom: 595px;
+    left: 285px;
+    font-size: 24px;
+    cursor: pointer;
+    top: 30px;
+  }
+  
 }
