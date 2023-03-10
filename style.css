@@ -1,5 +1,5 @@
 * {
-  font-family: "Gloock", serif;
+  font-family: "Raleway", sans-serif;
   margin: 0px;
 }
 /* ------------Header part style------------ */
@@ -49,11 +49,11 @@
 .nav-items > li > button {
   background-color: rgba(155, 226, 55, 0.004);
   border: 0px;
-  padding-left: 20px;
+  padding-left: 10px;
   border-radius: 10px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
 }
 .nav-items > li > button:hover {
   background-color: rgba(155, 226, 55, 0.304);
@@ -152,12 +152,15 @@
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 30px;
+    padding-bottom: 20px;
   }
   .work-area>h1{
     text-align: center;
     font-size: 35px;
   }
   .work-area>p{
+    margin-left: 180px;
+    margin-right: 180px;
     padding-top: 15px;
     text-align: center;
     font-size: 20px;   
@@ -195,6 +198,143 @@
     width: 120px;
   }
   /* Work area section style ends  */
+
+
+
+  /* Team of financials  */
+
+  .team-sec{
+    padding: 0px 80px 0px 80px;
+    background-color: rgba(8, 235, 182, 0.269);
+  }
+  .team-sec>h1{
+    padding: 50px 0px 30px 0px;
+    text-align: center;
+    font-size: 40px;
+  }
+  .team-sec>p{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 50px;
+    color: rgba(83, 78, 40, 0.794);
+  }
+  /* employee introfuction  */
+  .expert-container{
+    display: flex;
+    justify-content: space-around;
+  }
+  .experts>img{
+    width: 350px;
+    border-radius: 10px;
+  }
+  .experts>p{
+    padding :5px;
+    position: relative;
+    bottom: 90px;
+    text-align: center;
+    color: rgb(91, 101, 44);
+    background-color: rgba(240, 255, 240, 0.746);
+    margin: 0px 80px 0px 80px;
+    border-radius: 10px;
+  }
+  .social-1{
+    background-color: rgb(240, 224, 116);
+    position:relative;
+    
+    border-radius: 50px;
+    height: 50px;
+    width:  50px;
+    bottom: 85px;
+    left:  60px;
+    overflow: hidden;
+  }
+  .social-1>a>img{
+    width: 318px;
+    position: relative;
+    bottom: 66px;
+    right:19px ;
+
+  }
+  .social-1>a>img:hover{
+    bottom:127px;
+    transition-property: bottom;
+    transition-duration: 500ms;
+  }
+  .social-2{
+    background-color: rgb(240, 224, 116);
+    position:relative;
+    
+    border-radius: 50px;
+    height: 50px;
+    width:  50px;
+    bottom: 136px;
+    left: 120px;
+    overflow: hidden;
+  }
+  .social-2>a>img{
+    width: 318px;
+    position: relative;
+    bottom: 65px;
+    right:77px ;
+
+  }
+  .social-2>a>img:hover{
+    bottom:126px;
+    transition-property: bottom;
+    transition-duration: 500ms;
+  }
+  .social-3{
+    background-color: rgb(240, 224, 116);
+    position:relative;
+    
+    border-radius: 50px;
+    height: 50px;
+    width:  50px;
+    bottom: 186px;
+    left: 180px;
+    overflow: hidden;
+  }
+  .social-3>a>img{
+    width: 318px;
+    position: relative;
+    bottom: 65px;
+    right:134px ;
+
+  }
+  .social-3>a>img:hover{
+    bottom:126px;
+    transition-property: bottom;
+    transition-duration: 500ms;
+  }
+  .social-4{
+    background-color: rgb(240, 224, 116);
+    position:relative;    
+    border-radius: 50px;
+    height: 50px;
+    width:  50px;
+    bottom: 236px;
+    left: 240px;
+    overflow: hidden;
+  }
+  .social-4>a>img{
+    width: 318px;
+    position: relative;
+    bottom: 65px;
+    right:191.5px ;
+
+  }
+  .social-4>a>img:hover{
+    bottom:126px;
+    transition-property: bottom;
+    transition-duration: 500ms;
+  }
+  .ex
+
+  /* Team of financials  */
+
+  
 
 
 
