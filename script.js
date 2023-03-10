@@ -1,3 +1,1 @@
-document.getElementById('ham-menu').addEventListener('click',function(){
-    document.getElementById('nav').style.display.block ;
-})
+const getGirlFriend= (name = "chokina")=>"name"; console.log(getGirlFriend());
