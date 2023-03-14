@@ -201,7 +201,7 @@
 
 
 
-  /* Team of financials  */
+  /* Team of financial  */
 
   .team-sec{
     padding: 0px 80px 0px 80px;
@@ -220,7 +220,11 @@
     margin-bottom: 50px;
     color: rgba(83, 78, 40, 0.794);
   }
-  /* employee introfuction  */
+  /* employee introduction  */
+  .social-icons{
+    width: 60px;
+    height: 30px;
+  }
   .expert-container{
     display: flex;
     justify-content: space-around;
@@ -330,37 +334,224 @@
     transition-property: bottom;
     transition-duration: 500ms;
   }
-  .ex
-
-  /* Team of financials  */
-
   
+  /* Team of financial ends */
+/* why us section style  */
+.whyusholder{
+  background-color: rgba(211, 209, 204, 0.723);
+  padding: 0px 80px 30px 80px ;
+  display: flex;
+  gap: 30px;
+}
+.why-us-image>img{
+  width: 600px;
+  height: 550px;
+  border-radius: 10px;
+}
+
+.why-detail>h1{
+  padding: 50px 0px 20px 0px;
+  font-weight: 700;
+  font-size: 35px;
+}
+.why-detail>p{
+  
+  font-size: 15px;
+}
+.why-detail>hr{
+  border: 2px solid yellowgreen;
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.imgsection{
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.case>img{
+  width: 80px;
+}
+.case>p{
+font-size: 10px;}
+
+ /* why us section style ends */
 
 
 
+/* footer section  */
 
+.footer-container{
+  background-color: rgb(95, 92, 87);
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+ padding: 10px 80px 30px 80px;
+ column-gap: 50px;
+ color: rgb(199, 185, 166);
 
+}
+.logo-container{
+  padding-bottom:15px ;
+  align-items: center;
+  display: flex;
+}
+.logo-container>img{
+  width: 50px;
+  padding-right: 10px;
+}
+.logo-container>h1{
+  color: rgb(199, 185, 166);
+ font-size: 20px;
+}
+.social-link{
+  padding-top: 30px;
 
+}
+.facebook{
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border-radius: 16px;
+  
+}
+.facebook>a>img{
+  position: relative;
+  left: -13px;
+  bottom: 42px;
+width: 199px;
 
+}
+.facebook>a>img:hover{
+  bottom: 80px;
+  transition-property: bottom;
+  transition-duration: 500ms;
 
+}
+.twitter{
+  position: relative;
+  left: 40px;
+  bottom: 30px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border-radius: 16px;
+  /* border: 2px solid; */
+  
+}
+.twitter>a>img{
+  position: relative;
+  left: -48.8px;
+  bottom: 42px;
+width: 199px;
 
+}
+.twitter>a>img:hover{
+  bottom: 80px;
+  transition-property: bottom;
+  transition-duration: 500ms;
 
+}
+.linkedin{
+  position: relative;
+  left: 80px;
+  bottom: 60px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border-radius: 16px;
+  /* border: 2px solid; */
+}
+.linkedin>a>img{
+  position: relative;
+  left: -84.6px;
+  bottom: 42px;
+width: 199px;
 
+}
+.linkedin>a>img:hover{
+  bottom: 80px;
+  transition-property: bottom;
+  transition-duration: 500ms;
 
+}
+.youtube{
+  position: relative;
+  left: 120px;
+  bottom: 90px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border-radius: 16px;
+  /* border: 2px solid;   */
+}
+.youtube>a>img{
+  position: relative;
+  left: -157.4px;
+  bottom: 42px;
+width: 199.5px;
 
+}
+.youtube>a>img:hover{
+  bottom: 80px;
+  transition-property: bottom;
+  transition-duration: 500ms;
 
+}
+.blogPost>h1{
+  font-size: 20px;
+}
+.blogPost{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.blog>a{
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  align-items: center;
+  
+}
+.blog>a>img{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.blog>a{
+  text-decoration: none;
+}
+.blog>a>h1{
 
-
-
-
-
-
-
-
-
-
-
-
+  padding-left: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(199, 185, 166);
+}
+.contact>h1{
+ font-size: 20px;
+ padding-top: 10px;
+ padding-bottom: 20px;
+}
+.contact>p{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 16px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+.contact>p>span{
+ padding-right: 10px;
+}
+.copy-right{
+  text-align: center;
+  background-color: rgba(22, 20, 19, 0.859);
+  font-size: 16px;
+  color: antiquewhite;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* footer section  end*/
 
 
 
