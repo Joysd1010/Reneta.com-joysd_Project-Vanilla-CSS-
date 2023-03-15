@@ -378,8 +378,172 @@
 font-size: 10px;}
 
  /* why us section style ends */
+/* clients feedback section */
+#feedback{
+  background-color: rgb(196, 222, 242);
+  padding:20px 80px 20px 80px;
+}
+#feedback>h1{
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+}
+#feedback>p{
+  text-align: center;
+}
+#feedback>hr{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-right: 450px;
+  margin-left: 450px;
+  border: 1px solid yellowgreen;
+}
+.clients{
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  justify-content: space-around;
+}
+.user>h3{
+  font-weight:900;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px 0px 30px 0px;
+}
+.user>p{
+  font-style: italic;
+  font-family:cursive;
+  font-size: 14px;
+  text-align: center;
+}
+.user{
+  text-align: center;
+}
+.user>img{
+  border: 2px solid yellow;
+  border-radius: 50px;
+  width: 80px;
+  
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+.brands>h3{
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.brands{
+  padding: 30px 80px 30px 80px;
+  background-color: rgb(150, 131, 125);
+}
+.logos{
+  display: flex;
+  justify-content: space-around;
+}
+.logos>img{
+  width: 80px;
+  background: #ffdea5f2;
+  border-radius: 50px;
+  box-shadow: 4px 4px 8px;
+}
+.logos>img:hover{
+  
+  scale: 1.15;
+  border-radius: 25px;
+  transition-property: scale,border-radius;
+  transition-duration: 500ms;
+}
+/* clients feedback section ends */
 
 
+/* Free consulting section style  */
+#consult{
+  color: rgb(106, 100, 90);
+  display: flex;
+  gap: 40px;
+  padding: 30px 80px 30px 80px ;
+  background-color: rgba(181, 198, 198, 0.907);
+}
+.contact-img>img{
+  height: 550px;
+width: 600px;
+position: relative;
+bottom: 40px;
+
+}
+.contact-img{
+width: 650px;
+height: 500px;
+
+overflow: hidden;
+border-radius: 15px;
+}
+.consult>p{
+font-size: 16px;
+padding-bottom: 20px;
+}
+.consult>hr{
+  border-radius: 5px;
+  border: 2px solid rgb(187, 200, 48);
+  width: 200px;
+  margin-bottom: 30px;
+}
+.consult>h1{
+font-size: 36px;
+color: rgb(45, 37, 27);
+padding: 0px 0px 10px 0px ;
+}
+.input-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  row-gap: 20px; 
+  column-gap: 20px;
+  padding-bottom: 30px;
+  
+}
+.input-container>input{
+  background-color: rgb(171, 236, 159);
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow:5px 5px 5px rgb(151, 151, 112);
+}
+.choice>label{
+  font-size: 16px;
+  color: rgb(45, 37, 27);
+}
+.choice>select{
+  margin-left: 24px;
+  padding: 8px;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: rgb(171, 236, 159);
+  box-shadow:5px 5px 5px rgb(151, 151, 112);
+  
+}
+.consult>textarea{
+  background-color:rgb(171, 236, 159); 
+  width: 450px;
+  height: 150px;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.consult>button{
+background-color:  rgb(187, 200, 48);
+font-size: 18px;
+padding: 8px 10px 8px 10px;
+color: rgb(251, 249, 248);
+border-radius: 10px;
+border: none;
+cursor: pointer;
+box-shadow:5px 5px 5px rgb(79, 75, 75);
+}
+
+/* Free consulting section style ends */
 
 /* footer section  */
 
